@@ -1,0 +1,80 @@
+.imgnav{
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+.imgnav:hover{
+    border: 4px solid rgb(255, 255, 255, 0.2);
+    background-color: rgb(44, 70, 78);
+    color: rgba(255, 255, 255, 0.473);
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.section1{
+    background-image: url(https://wallpaperaccess.com/full/1267200.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10% 20%;
+    font-weight: bold;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 h2{
+    font-size: 250%;
+    text-shadow: 3px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+    
+    
+}
+
+.section1 p{
+    font-size: 2em;
+    text-shadow: 0 0 15px black;
+}
+
+.section3{
+    background-image: url(https://wallpapercave.com/wp/wp4280124.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 8em 2em;
+    font-weight: bold;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topics h2{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
+.topics img{
+    border-radius: 100%; 
+}
+
+footer{
+    overflow: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
