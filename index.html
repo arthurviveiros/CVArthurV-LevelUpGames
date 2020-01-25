@@ -12,12 +12,39 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
 </head>
 <body>
-    <nav class="navbar navbar-dark">
-        <a class="navbar-brand" href="#">Contatos</a>
-        <img>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Contatos:</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/arthur-viveiros-242613167/">LinkedIn</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/tato751">Github</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/Arthurviveiro">Facebook</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Diretos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">WhatsApp: (11)99645-6027</a>
+                <a class="dropdown-item" href="#">Email: arthur.viveiros.n@gmail.com</a>
+            </li>
+          </ul>
+          <a class="navbar-brand" href="#">Arthur Viveiros</a>
+        </div>
+      </nav>
     
     <section class="section1">
         <div class="container">
@@ -26,37 +53,89 @@
             <h2 class="text-light">Desenvolvedor Full Stack | Técnico em Automação Industrial</h2>
         </div>
     </section>  
+
     <section class="section2">
-        <div class="row">
-            <div class="col col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo incidunt magnam, asperiores facere praesentium adipisci eaque voluptate tempore voluptatem minima, labore ad reiciendis veniam vero. Laborum sed ipsa nulla?</p>
-            </div>
-            <div class="col col-md-6">
-                <img class="img-fluid" src="img/preconceito.jpg" alt="Guitar player">
-            </div>
-            
+        <div class="quadradindo2">
+            <h1>Quem sou eu?</h1>
+            <p>Assim como a maioria de vocês, Sou um apaixonado por games!! :D</p>
+            <p>Sigo a levelup desde pequeno</p>
         </div>
     </section>
+
+    <section class="barrinhainvi"></section>
+    <section class="barrinha"></section>
     
-    <section class="section2">
-        <div class="row">
-            <h2>Quem sou eu?</h2>
-            Nascemos a partir de um projeto social, que busca aperfeiçoar e amenizar os níveis de preconceito no Brasil. 
-            Com a ajuda do site, acreditamos que podemos salvar vidas. 
-        
-        </div>
     </section>
+
     <section class="section3">
-        <div class="row">
-            <h2>Quem sou eu?</h2>
-            Nascemos a partir de um projeto social, que busca aperfeiçoar e amenizar os níveis de preconceito no Brasil. 
-            Com a ajuda do site, acreditamos que podemos salvar vidas. 
-        
+        <div class="quadradindo3">
+            <h1>Quem sou eu?</h1>
+            <p>Assim como a maioria de vocês, Sou um apaixonado por games!! :D</p>
+            <p>Sigo a levelup desde pequeno</p>
         </div>
     </section>
-    
+
+    <section class="section3">
+        <div class="quadradindo4">
+            <h1>Minha vida acadêmica</h1>
+            <div class="escolas">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="imgP" src="img/santaluzia.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="faculpreto">Colégio Santa Luzia</h5>
+                          <p class="faculpreto">Colégio Fundamental</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="imgP" src="img/etec.png"" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="faculpreto">Etec Martin Luther King</h5>
+                          <p class="faculpreto"> Técnico em Automação Industrial integrado ao ensino médio
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="imgP" src="img/mastertech.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="faculpreto">Escola de Programação</h5>
+                          <p class="faculpreto">Aprendi HTML, CSS, JS, ReactJS e noções de BackEnd</p>
+                        </div>
+                      </div>          
+                      <div class="carousel-item">
+                        <img class="imgP" src="img/Fateczl.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="faculpreto">Faculdade de Tecnologia da Zona Leste</h5>
+                          <p class="faculpreto">Faculdade de Análise e Desenvolvimento de Sistemas</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
     <footer class="mt-5">
-        <p class="mt-3 mb-3">Copyright © 2018</p>  
+        <p class="mt-3 mb-3">Caso você tenha gostado desse "currículo", todo o código está no meu <a href="https://github.com/tato751">GitHub</a>, tudo bonitinho :D</p>  
+        <p class="mt-3 mb-3">Eu utilizei HTML e CSS e bootstrap para fazê-lo, pois acabou não sendo necessário o JavaScript</p>  
+        <p class="mt-3 mb-3">MAAAAAAS, se você dê uma olhada no github, você encontrará projetos em JavaScript e Python</p>  
+        <p class="mt-3 mb-3">Esse site foi feito em 6 horas</p> 
     </footer>
 </body>
 </html>
